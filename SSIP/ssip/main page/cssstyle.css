@@ -1,0 +1,160 @@
+body {
+  font: normal 300 18px "Roboto", sans-serif;
+}
+ 
+#menu-nav {
+  max-width: 1000px;
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+ 
+#navigation-bar ul {
+  border-radius: 4px;
+  overflow: hidden;
+}
+#navigation-bar li {
+  float: left;
+  width: 20%;
+}
+#navigation-bar li:hover a::before {
+  right: 0;
+  left: 0;
+}
+#navigation-bar a {
+  color: #848484;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  padding: 20px 0;
+  display: block;
+  position: relative;
+  transition: all 0.3s ease;
+}
+#navigation-bar a:hover {
+  color: #e74c3c;
+}
+#navigation-bar a::before {
+  content: "";
+  transition: all 0.4s ease-in-out;
+  position: absolute;
+  right: 50%;
+  left: 50%;
+  bottom: 0;
+  height: 2px;
+  background-color: #e74c3c;
+}
+#navigation-bar a:hover::before {
+  right: 0;
+  left: 0;
+}
+ 
+li {
+	list-style: none;
+}
+
+.tabContainer{
+  width: 100%;
+  height: 300px;
+}
+.tabContainer .buttonContainer{
+  height:15%;
+}
+.tabContainer .buttonContainer button{
+  width: 40%;
+  height: 100%;
+  border-radius: 4px;
+  float: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color:black;
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: 18px;
+  background-color: #fff;
+}
+.tabContainer .buttonContainer button:hover{
+  background-color: #d7d4d4;
+  color: black;
+}
+.tabContainer .tabPanel{
+  height:500px;
+  width:80.5%;
+  background-color: white;
+  color:black;
+  border-radius: 4px;
+  border-style: double;
+  text-align: Center;
+  padding-top: 105px;
+  padding-left: 150px;
+  padding-right: 150px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 20px;
+  display: none;
+}
+.about{
+	 width: 100%;
+  height: 300px;
+}
+.aboutContent{
+  width: 900px;
+  height: 450px;
+  border-radius: 8px;
+  float: center;
+  border: none;
+  outline: none;
+  color:black;
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: 20px;
+  background-color: #fff;
+}
+.aboutContent p{
+	width:700px;
+	text-align:justify;
+	text-justify: inter-word;
+	text-indent:50px;
+	float: center;
+	background-color: #fff;
+}
+.aboutContent h2{
+	color:#1a1a1a;
+}
+.aboutContent hr{
+	 border: 2px solid gray;
+	 border-radius:3px;
+	 width:750px;
+}
+.contact{
+	 width: 100%;
+  height: 300px;
+}
+.contact hr{
+	 border: 2px solid gray;
+	 border-radius:3px;
+	 width:550px;
+}
+.contact p{
+	width:550px;
+	text-align:left;
+	text-justify: inter-word;
+	text-indent:50px;
+	float: center;
+	background-color: #fff;
+}
+.contact .aboutContent{
+  width: 750px;
+  height: 375px;
+  border-radius: 8px;
+  float: center;
+  border: none;
+  outline: none;
+  color:black;
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: 20px;
+  background-color: #fff;
+}
