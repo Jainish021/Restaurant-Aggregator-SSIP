@@ -1,4 +1,4 @@
-var attempt = 3;
+var attempt = 30;
 
 function validate() {
     var resID = document.getElementById("resID").value;
