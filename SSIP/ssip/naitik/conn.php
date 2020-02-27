@@ -15,7 +15,7 @@ $conn = mysqli_connect($servername,$username,$password,$dbname);
 
 if($conn)
 {
-	echo "";
+	//echo "";
 //	header('Location: basic.html');
 }
 else

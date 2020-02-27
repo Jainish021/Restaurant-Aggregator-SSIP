@@ -39,7 +39,7 @@ $count=mysqli_num_rows($result);
 // If result matched $username and $password, table row must be 1 row
 if ($count==1)
 {
-    header("location:index.html");
+    header("location:home.html");
 } 
 else 
 {

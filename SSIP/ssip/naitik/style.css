@@ -52,7 +52,7 @@ background-image:url(img.jpg);
 .form button:hover,.form button:active{
     background:#4CAF50;
 }
-button[type=submit]{
+input[type=submit]{
 	padding:15px;
 	border:0;
 	cursor:pointer;
